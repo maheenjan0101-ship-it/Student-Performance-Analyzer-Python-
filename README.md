@@ -1,6 +1,6 @@
 # Student Performance Analyzer
 
-A menu-driven Python application for managing student records using CSV file handling.
+A beginner-friendly command-line application built in Python for managing student records using CSV file handling. The project demonstrates CRUD operations, file handling, input validation, sorting, searching, and performance analysis.
 
 ## Project Description
 
@@ -55,23 +55,60 @@ python student_performance_analyzer.py
 
 5. Follow the on-screen menu to manage student records.
 
-## Sample Output
+## Screenshots
 
-```text
-===== Student Performance Analyzer =====
+### 1. Main Menu
 
-1. Add Student
-2. View Students
-3. Search Student
-4. Highest Scorer
-5. Pass Percentage
-6. Update Student
-7. Delete Student
-8. Sort Students by Average
-9. Exit
+![Main Menu](screenshots/main_menu.png)
 
-Enter your choice:
-```
+---
+
+### 2. Add Student
+
+Shows how a new student record is added after validating the roll number, name, and subject marks.
+
+![Add Student](screenshots/add_student.png)
+
+---
+
+### 3. View Students
+
+Displays all student records along with their average marks and assigned grades.
+
+![View Students](screenshots/view_students.png)
+
+---
+
+### 4. Search Student
+
+Searches for a student using their roll number and displays the complete record.
+
+![Search Student](screenshots/search_student.png)
+
+---
+
+### 5. Highest Scorer
+
+Identifies and displays the student with the highest total marks.
+
+![Highest Scorer](screenshots/highest_scorer.png)
+
+---
+
+### 6. Pass Percentage
+
+Calculates and displays the overall class pass percentage.
+
+![Pass Percentage](screenshots/pass_percentage.png)
+
+---
+
+### 7. Sort Students
+
+Displays students ranked in descending order based on their average marks.
+
+![Sorted Students](screenshots/sorted_students.png)
+
 
 ## Learning Outcomes
 
